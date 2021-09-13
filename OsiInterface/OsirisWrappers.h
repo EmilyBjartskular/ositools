@@ -1,6 +1,6 @@
 #pragma once
 
-#include <GameDefinitions/Osiris.h>
+#include "GameDefinitions/Osiris.h"
 #include "Wrappers.h"
 #include <detours.h>
 #include <thread>

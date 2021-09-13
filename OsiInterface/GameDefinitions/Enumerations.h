@@ -203,7 +203,7 @@ namespace dse
 #define EV(label, value) label = value,
 #define END_ENUM_NS() }; };
 #define END_ENUM() };
-#include <GameDefinitions/Enumerations.inl>
+#include "GameDefinitions/Enumerations.inl"
 #undef BEGIN_BITMASK_NS
 #undef BEGIN_ENUM_NS
 #undef BEGIN_BITMASK
@@ -240,7 +240,7 @@ namespace dse
 #define EV(label, value)
 #define END_ENUM_NS()
 #define END_ENUM()
-#include <GameDefinitions/Enumerations.inl>
+#include "GameDefinitions/Enumerations.inl"
 #undef BEGIN_BITMASK_NS
 #undef BEGIN_ENUM_NS
 #undef BEGIN_BITMASK

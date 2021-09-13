@@ -8,7 +8,7 @@
 #include <string>
 #include <cassert>
 #include <glm/vec3.hpp>
-#include <GameDefinitions/BaseTypes.h>
+#include "GameDefinitions/BaseTypes.h"
 
 namespace dse
 {
